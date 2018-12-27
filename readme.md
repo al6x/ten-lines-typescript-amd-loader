@@ -5,10 +5,8 @@ All you need to do is to add following lines to `tsconfig.json` file:
 ``` json
 {
   "compilerOptions": {
-    ...
     "module": "AMD",
     "outFile": "./build/app.js",
-    ...
   }
 }
 ```
