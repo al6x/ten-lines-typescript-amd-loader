@@ -14,12 +14,14 @@ All you need to do is to add following lines to `tsconfig.json` file:
 and require the `app.js` in `index.html` like that:
 
 ``` html
-  <script type="text/javascript" src="/ten-lines-typescript-amd-loader.js"></script>
+  <script type="text/javascript" src="/vendor/ten-lines-typescript-amd-loader.js"></script>
   <script type="text/javascript" src="/build/app.js"></script>
 ```
 
-That's all. Very easy setup for small projects when you don't need to bother with optimised WebPack build, and don't 
-want to spend time setting up old and overengineered shit like Babel, require.js, almond.js, System.js
+That's all. Very easy setup for small projects when you don't need to bother with optimised WebPack build. 
+
+Now you can start the actual work and make something cool. Not spending your valuable time setting up old and 
+overengineered shit like Babel, require.js, almond.js, System.js
 
 A little more details
 =====================
