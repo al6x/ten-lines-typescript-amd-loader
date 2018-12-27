@@ -29,3 +29,8 @@ A little more details
 You cant tell TypeScript to watch over your project and recompile the build on the fly `tsc -w` and in start
 static web server in another terminal tab `http-server -c-1 .` - all done, now just open your `index.html` with
 assembled app in Browser.
+
+Example
+=======
+
+https://github.com/alexeypetrushin/stupid-simple-typescript-web-starter
